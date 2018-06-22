@@ -9,6 +9,11 @@
            fetch="https://github.com/pixeldustproject-o" />
   <remote name="spz"
            fetch="https://github.com/spezi77" />
+  <remote  name="bb"
+           fetch="https://bitbucket.org/xanaxdroid/" />
+
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="bb" revision="master" />
 
   <!-- Pixel GApps -->
   <project path="vendor/googleapps" name="vendor_googleapps" remote="glab" revision="o2" />

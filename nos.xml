@@ -9,11 +9,6 @@
         fetch="https://github.com/nitrogen-project"
         sync-j="16" />
 
-  <!--remote  name="bb"
-           fetch="https://bitbucket.org/xanaxdroid/" />
-
-  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="bb" revision="eightone" /-->
-
     <!-- general -->
     <project path="build/kati" name="android_build_kati" remote="nos" revision="o2" />
 
