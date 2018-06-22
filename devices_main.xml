@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="glab"
+           fetch="https://gitlab.com/spezi77/" />
+  <remote  name="br"
+           fetch="https://github.com/BenzoRom/" />
+  <remote name="pdo"
+           fetch="https://github.com/pixeldustproject-o" />
+  <remote name="spz"
+           fetch="https://github.com/spezi77" />
+
+  <!-- Pixel GApps -->
+  <project path="vendor/googleapps" name="vendor_googleapps" remote="glab" revision="o2" />
+
+  <!-- Pixel devices -->
+  <project path="vendor/google_devices" name="vendor_google_devices" remote="br" revision="eightone" />
+  <project path="kernel/google/marlin" name="hellspawn_kernel_pixel" remote="pdo" revision="HS-X-3.00" />
+  <project path="device/google/marlin" name="nos_device_google_marlin" remote="spz" revision="o2-pixel" />
+
+</manifest>
