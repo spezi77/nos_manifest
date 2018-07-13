@@ -5,6 +5,9 @@
            fetch="https://github.com/BenzoRom/" />
   <remote name="pdo"
            fetch="https://github.com/pixeldustproject-o" />
+  <remote name="glab"
+           fetch="https://gitlab.com/spezi77/" />
+
 
   <!-- Pixel GApps -->
   <project path="vendor/googleapps" name="vendor_googleapps" remote="pdo" revision="o2" />
@@ -13,5 +16,10 @@
   <project path="vendor/google_devices" name="vendor_google_devices" remote="benzo" revision="eightone" />
   <project path="kernel/google/marlin" name="hellspawn_kernel_pixel" remote="pdo" revision="HS-X-3.00" />
   <project path="device/google/marlin" name="android_device_google_marlin" remote="pdo" revision="o2-sdc" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="glab" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="glab" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-8.0" name="aarch64-8.0" remote="glab" revision="linaro" />
 
 </manifest>
