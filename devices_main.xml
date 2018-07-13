@@ -14,4 +14,9 @@
   <project path="kernel/google/marlin" name="hellspawn_kernel_pixel" remote="pdo" revision="HS-X-3.00" />
   <project path="device/google/marlin" name="android_device_google_marlin" remote="pdo" revision="o2-sdc" />
 
+  <!-- Prebuilts -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="aarch64-linux-android-4.9" remote="pdo" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="pdo" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-8.0" name="aarch64-8.0" remote="pdo" revision="linaro" />
+
 </manifest>
