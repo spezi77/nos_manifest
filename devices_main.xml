@@ -3,8 +3,6 @@
 
   <remote name="benzo"
            fetch="https://github.com/BenzoRom/" />
-  <remote name="pdo"
-           fetch="https://github.com/pixeldustproject-o" />
   <remote name="glab"
            fetch="https://gitlab.com/spezi77/" />
 
