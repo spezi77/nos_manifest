@@ -19,4 +19,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="arm-linux-androideabi-4.9" remote="glab" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-8.0" name="aarch64-8.0" remote="glab" revision="linaro" />
 
+  <!-- Forked -->
+  <project path="packages/apps/DUI" name="nos_packages_apps_DUI" remote="spz" revision="o2-pixel" />
+
 </manifest>
