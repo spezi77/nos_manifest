@@ -8,6 +8,8 @@
     <remote name="nos"
         fetch="https://github.com/nitrogen-project"
         sync-j="16" />
+    <remote name="pdo"
+        fetch="https://github.com/pixeldustproject-o" />
     <remote name="spz"
         fetch="https://github.com/spezi77/" />
 
